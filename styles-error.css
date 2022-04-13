@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,100;1,200&display=swap');
+
+:root{
+    --font: 'Poppins';
+}
+
+html{
+    background-color: black;
+    color: white;
+    font-family: var(--font)
+}
+
+.caja-madre{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.caja-titulo{
+    margin-top: 50px;
+    padding-right: 200px;
+}
+
+.caja-parrafo{
+    padding-left: 200px;
+    padding-right: 50px;
+}
