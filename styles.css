@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,100;1,200&display=swap');
+
+:root{
+    --font: 'Poppins', sans-serif;
+}
+
+html{
+    background-color: salmon;
+    font-family: var(--font);
+}
+
+.container-madre, .container-inputs{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border-radius: 30px;
+    padding-right: 300px;
+    padding-left: 20px;
+    border: none;
+
+}
+
+
+.label{
+    color: white;
+    flex-direction: row;
+    padding-right: 400px;
+    margin: 10px;
+}
+
+.label2{
+    color: white;
+    flex-direction: row;
+    padding-right: 370px;
+    margin: 10px;
+}
+
+.ingresar{
+
+    margin-top: 15px;
+    border: none;
+    border-radius: 30px;
+    background-color: crimson;
+    color: white;
+    padding: 10px 218px;
+    cursor: pointer;
+    transition: all 0.3s;
+
+}
+
+.container-ingresar button:hover{
+    background-color: rgb(148, 66, 57);
+}
